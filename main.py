@@ -19,7 +19,7 @@ while True:
     print(Fore.GREEN + f"Country: {values['country']}" + Style.RESET_ALL)
     print(Fore.GREEN + f"Region: {values['region']}")
     print(Fore.GREEN + f"Timezone: {values['timezone']}" + Style.RESET_ALL)
-    continue_num = int(input("Введите 1 если хотите пробить ещё ра, 2 если завершить"))
+    continue_num = int(input("Введите 1 если хотите пробить ещё раз, 2 если завершить: "))
     if continue_num == 2:
         break
 
